@@ -1,0 +1,19 @@
+{
+  "name": "@4tw/vue-cli-plugin-pdfjs-viewer",
+  "version": "1.0.0",
+  "description": "Mozilla's pdf.js viewer.html",
+  "main": "index.js",
+  "scripts": {
+    "release": "release-it"
+  },
+  "author": "4teamwork AG",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "copy-webpack-plugin": "*"
+  },
+  "devDependencies": {
+    "@release-it/keep-a-changelog": "^2.1.0",
+    "release-it": "^14.2.1"
+  }
+}
