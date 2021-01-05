@@ -5,7 +5,7 @@ The mozilla [pdf.js viewer](https://mozilla.github.io/pdf.js/web/viewer.html) as
 ## Usage
 
 This vue-cli plugin will copy all the required pdf.js files into the `public` folder.
-The viewer will then be available under the following URL: `{BASE_URL}/pdfjs/viewer.html?file=/example.pdf`.
+The viewer will then be available under the following URL: `{BASE_URL}/pdfjs/web/viewer.html?file=/example.pdf`.
 
 ## Updating
 
