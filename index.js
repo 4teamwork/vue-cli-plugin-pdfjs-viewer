@@ -9,7 +9,8 @@ module.exports = (api, { pluginOptions } = {}) => {
       .use(CopyPlugin, [[
           {
             from: path.join(__dirname, './assets'),
-            to: path.join(api.service.context, pdfjsPath)
+            to: path.join(api.service.context, pdfjsPath),
+            force: true
           }
       ]])
   })
