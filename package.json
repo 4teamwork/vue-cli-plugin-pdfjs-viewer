@@ -15,5 +15,8 @@
   "devDependencies": {
     "@release-it/keep-a-changelog": "^3.1.0",
     "release-it": "^15.11.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
